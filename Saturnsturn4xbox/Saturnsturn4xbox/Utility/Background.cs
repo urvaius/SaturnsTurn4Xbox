@@ -120,7 +120,7 @@ namespace Saturnsturn4xbox.Utility
 			// If the right edge of the background panel will end 
 			// within the bounds of the display, draw a second copy 
 			// of the background at that location.
-			if (iBackgroundOffset >= iBackgroundWidth - iViewportWidth)
+			if (iBackgroundOffset > iBackgroundWidth - iViewportWidth)
 			{
 				spriteBatch.Draw(
 					t2dBackground,

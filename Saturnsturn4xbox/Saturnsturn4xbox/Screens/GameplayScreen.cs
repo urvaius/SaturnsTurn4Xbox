@@ -141,7 +141,13 @@ namespace GameStateManagement
 				content = new ContentManager(ScreenManager.Game.Services, "Content");
 
 			//todo figure out which background to use
-			newBackground = new Background(content, @"Graphics\Backgrounds\PrimaryStar", @"Graphics\Backgrounds\ParallaxStars", ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+			//newBackground = new Background(content, @"Graphics\Backgrounds\PrimaryStar", @"Graphics\Backgrounds\ParallaxStars", ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+			newBackground = new Background(content, @"Graphics\Backgrounds\PrimaryStar", @"Graphics\Backgrounds\ParallaxStars", ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Width, ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Height);
+
+
+
+
+
 
 			// bgLayer1 = new ParallaxingBackground();
 			//bgLayer2 = new ParallaxingBackground();
@@ -150,7 +156,11 @@ namespace GameStateManagement
 
 			// score postion setting
 			scorePosition = new Vector2(ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.X, ScreenManager.GraphicsDevice.Viewport.TitleSafeArea.Y);
-		   // scoreString = GetScoreString(player.Score);
+		   
+			
+			
+			
+			// scoreString = GetScoreString(player.Score);
 
 
 			//todo not working yet for effects fix

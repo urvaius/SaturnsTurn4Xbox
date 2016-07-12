@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using SaturnsTurn3.Utility;
+using Saturnsturn4xbox.Utility;
 
-namespace SaturnsTurn3
+namespace Saturnsturn4xbox
 {
     class AsteroidEnemy 
     {

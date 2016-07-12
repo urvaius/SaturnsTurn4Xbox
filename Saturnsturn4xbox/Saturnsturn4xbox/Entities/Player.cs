@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using SaturnsTurn3.Utility;
-namespace SaturnsTurn3
+using Saturnsturn4xbox.Utility;
+namespace Saturnsturn4xbox
 {
     class Player
     {

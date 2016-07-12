@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using SaturnsTurn3.Utility;
+using Saturnsturn4xbox.Utility;
 
 
-namespace SaturnsTurn3.Entities
+namespace Saturnsturn4xbox.Entities
 {
     public abstract class Entity
     {

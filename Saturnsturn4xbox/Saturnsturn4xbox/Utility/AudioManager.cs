@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework.Audio;
 
 #endregion
 
-namespace SaturnsTurn3.Utility
+namespace Saturnsturn4xbox.Utility
 {
     /// <summary>
     /// Component that manages audio playback for all sounds.

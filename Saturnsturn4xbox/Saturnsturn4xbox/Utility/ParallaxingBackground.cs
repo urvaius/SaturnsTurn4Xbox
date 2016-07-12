@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
 
-namespace SaturnsTurn3.Utility
+namespace Saturnsturn4xbox.Utility
 {
     class ParallaxingBackground
     {

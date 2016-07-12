@@ -108,6 +108,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Graphics\arialblack50.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Content\Graphics\gameFont.spritefont" />
+    <None Include="Content\Graphics\menufont.spritefont" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +121,34 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Graphics\asteroid01.png" />
+    <Content Include="Content\Graphics\Backgrounds\ParallaxStars.png" />
+    <Content Include="Content\Graphics\Backgrounds\PrimaryStar.png" />
+    <Content Include="Content\Graphics\Backgrounds\saturn1.png" />
+    <Content Include="Content\Graphics\bold_silver.png" />
+    <Content Include="Content\Graphics\bolt_bronze.png" />
+    <Content Include="Content\Graphics\bolt_gold.png" />
+    <Content Include="Content\Graphics\explosion.png" />
+    <Content Include="Content\Graphics\firehair.png" />
+    <Content Include="Content\Graphics\gradientgreen.png" />
+    <Content Include="Content\Graphics\lasergreen.png" />
+    <Content Include="Content\Graphics\mineAnimation.png" />
+    <Content Include="Content\Graphics\mineGreenAnimation.png" />
+    <Content Include="Content\Graphics\playerShip1_greenrotate5066.png" />
+    <Content Include="Content\Graphics\shield_bronze.png" />
+    <Content Include="Content\Graphics\shield_gold.png" />
+    <Content Include="Content\Graphics\shield_silver.png" />
+    <Content Include="Content\Graphics\star_bronze.png" />
+    <Content Include="Content\Graphics\star_gold.png" />
+    <Content Include="Content\Graphics\star_silver.png" />
+    <Content Include="Content\Graphics\TextParticle.png" />
+    <Content Include="Content\Sounds\explosion.wav" />
+    <Content Include="Content\Sounds\gameMusic.wav" />
+    <Content Include="Content\Sounds\laser1.wav" />
+    <Content Include="Content\Sounds\laserFire.wav" />
+    <Content Include="Content\Sounds\PickedPowerup2.wav" />
+    <Content Include="Content\Sounds\title.wav" />
+    <Content Include="Content\Sounds\titlemusic.wma" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -137,6 +170,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Effects\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Level\" />
+    <Folder Include="ScreenManager\" />
+    <Folder Include="Screens\" />
+    <Folder Include="Utility\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

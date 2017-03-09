@@ -146,9 +146,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Graphics\Backgrounds\Saturn4smaller.png" />
-    <Content Include="Content\Graphics\blank.xnb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Content\Graphics\blank.png" />
     <None Include="Content\Graphics\gameFont.spritefont" />
     <None Include="Content\Graphics\menufont.spritefont" />
     <None Include="project.json" />
